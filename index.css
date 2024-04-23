@@ -5,3 +5,34 @@ body {
     font-family: monospace, serif;
     color: #fff;
 }
+
+h1{
+    font-size: 32pt;
+    margin-bottom: 16pt;
+}
+h2{
+    font-size: 18pt;
+    margin-bottom: 16pt;
+}
+a {
+    color: #fff;
+}
+
+#game-area{
+    background-color: #333;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 300ms linear 0ms;
+}
+
+#side-panel {
+    text-align: center;
+    margin-left: 60%;
+    margin-top: 5%;
+    height: 100%;
+    background-color: #444;
+}
